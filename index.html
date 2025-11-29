@@ -11,7 +11,6 @@
         .container {
             display: flex;
             justify-content: space-evenly;
-
         }
 
         .item {
@@ -181,7 +180,7 @@
         }
 
         .add-logo {
-            display: flex;
+            display: inline-flex;
             align-items: center
         }
 
@@ -189,13 +188,160 @@
             display: inline-flex;
             align-items: center;
             background-color: lightblue;
-            padding: 15px;
+            padding: 15px 90px 15px 60px;
             border-radius: 0px 0px 10px 10px;
             color: rgb(13, 12, 17);
             font-size: 18px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .start-info {
+            display: inline-flex;
+            align-items: center;
+            background-color: lightblue;
+            padding: 8px 50px 8px 90px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .card-info {
+            font-size: 30px;
+            padding: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+
+        }
+
+        .project-work {
+            font-size: 15px;
+            padding: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(145, 141, 141);
+        }
+
+        .logo1 {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 5px 5px 10px;
+        }
+
+        .proj-sub-information {
             display: flex;
             align-items: center;
+        }
+
+        .info1 {
+            display: inline-flex;
+            align-items: center;
+            font-size: 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(12, 11, 11);
+        }
+
+        .invite-link {
+            padding: 5px;
+        }
+
+        .link {
+
+            background-color: rgb(236, 236, 239);
+            padding: 10px 25px 10px 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            margin: 10px;
+            border-radius: 20px 0px 0px 20px;
+            color: rgb(166, 165, 172);
+            row-gap: ;
+        }
+
+        .add-button {
+            background-color: rgb(0, 0, 0);
+            padding: 10px 10px 10px 10px;
+            margin-left: 0%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+
+        .item4 {
+            background-color: #1f4d7e;
+            height: 430px;
+            width: 350px;
+            margin: 7px;
+            border: 1px solid rgb(228, 224, 224);
+            border-radius: 10px;
+        }
+
+        .proj-sub-update {
+            font-size: 19px;
+            margin-top: 20px;
+            padding: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+
+        }
+
+        .card4 {
+            margin-bottom: 10px;
+        }
+
+        .card4-info {
+            display: flex;
+            font-size: 22px;
+            margin-top: 4px;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        .card4-user-info {
+            display: flex;
+            font-size: 18px;
+            padding: 0px 10px 10px 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(171, 164, 164);
+        }
+
+        .user-info {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .profile {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .proj-user-sub-info {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(171, 164, 164);
+            padding: 0px 15px 15px 15px;
+        }
+
+        .proj-buttons {
+            display: inline-flex;
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(171, 164, 164);
+            padding: 0px 15px 15px 15px;
+        }
+
+        .button1 {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 20px;
+            background-color: yellow;
+            padding: 5px 40px 5px 40px;
+            color: black;
+            cursor: pointer;
+
+        }
+
+        .proj-logo {
+            display: inline-flex;
+            align-items: center;
+
         }
     </style>
 
@@ -267,17 +413,65 @@
             </div>
 
             <div class="start-info">
-                <img src="./play.png" height="20px" class="add-logo" />
-                <span class="add-info">Start</span>
+                
+                <span class="add-info"><img src="./play.png" height="20px"/>Start</span>
             </div>
-
         </div>
 
 
-        <div class="item">3</div>
-        <div class="item">4</div>
-    </div>
+        <div class="item">
+            <img src="./main-logo.jpg" height="150px" width="350px" class="main-img" />
+
+            <span class="card-info">Learn & Earn</span>
+            <br /><br />
+            <span class="project-work">How it works:</span>
+            <br />
+            <diV class="proj-information">
+
+                <div class="proj-sub-information">
+                    <img src="./courtesy.png" height="20px" class="logo1" />
+                    <span class="info1">Share the course link</span>
+                </div>
+
+                <div class="proj-sub-information">
+                    <img src="./diamond.png" height="20px" class="logo1" />
+                    <span class="info1">Your friend gets free access for 7 days</span>
+                </div>
+
+                <div class="proj-sub-information">
+                    <img src="./gift.png" height="20px" class="logo1" />
+                    <span class="info1">You earn 50 points for each successful sign-up</span>
+
+                </div>
+
+            </diV>
+            <div class="invite-link">
+                <span class="project-work">You invite link:</span>
+            </div>
+            <br />
+            <div class="info-link">
+                <span class="link">http://anandijadhav.com/learn/ahad</span>
+                <span class="add-button">Copy</span>
+            </div>
+
+
+        </div>
+        <div class="item4">
+            <img src="./card4-logo.png" height="200px" width="350px" class="card4" />
+            <br />
+            <div class="proj-update">
+                <span class="proj-sub-update">LIVE</span>
+                <span class="card4-info">Cinematography Masterclass</span>
+                <span class="card4-user-info">Ray Bansky</span>
+            </div>
+            <div class="proj-user-sub-info">
+                <img src="./user.png" height="15px" class="profile" />
+                <span class="user-info">120+ Students waiting </span>
+            </div>
+            <div class="proj-buttons">
+                <span class="button1">Join</span>
+            </div>
+        </div>
 </body>
 </head>
-
 </html>
